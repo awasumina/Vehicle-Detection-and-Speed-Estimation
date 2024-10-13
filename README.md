@@ -49,3 +49,6 @@ The speed estimation is based on the Euclidean distance between an object's posi
 ## Customization
 - **Line for Counting:** The script defines a line on the video frame (`line = [(100, 500), (1050, 500)]`). You can adjust this line to suit the area you're monitoring.
 - **Object Classes:** The script currently recognizes persons, cars, motorbikes, and buses. You can add more classes by modifying the `compute_color_for_labels` function.
+
+
+Special thanks to Muhammad Moin Faisal for his open-source implementation, which served as a valuable reference for this project.
